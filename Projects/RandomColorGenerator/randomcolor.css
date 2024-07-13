@@ -1,0 +1,44 @@
+#start{
+    background-color: #00FFF0FF;
+    color:#F5F5DC;
+    width : 100px;
+    margin : 2px 2px;
+    padding: 2px 2px;
+    font-size: 2rem;
+    border: 12px;
+    border-radius: 12px 12px    
+}
+
+#stop{
+    background-color: #F0000FFF;
+    color: aliceblue;
+    width : 100px;
+    margin: 3px;
+    padding: 2px 2px;
+    font-size: 2rem;
+    border: 12px;
+    border-radius: 12px 12px  
+}
+
+#lightstart{
+background-color: #87CEFA;
+color: aliceblue;
+width : 100px;
+margin: 3px;
+padding: 2px 2px;
+font-size: 2rem;
+border: 12px;
+border-radius: 8px 8px  
+}
+
+#lightstop{
+background-color: #DB7093;
+color: aliceblue;
+width : 100px;
+margin: 3px;
+padding: 2px 2px;
+font-size: 2rem;
+border: 12px;
+border-radius: 8px 8px;
+}
+

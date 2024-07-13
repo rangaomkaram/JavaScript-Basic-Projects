@@ -1,0 +1,19 @@
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#digiclock{
+    font-size: 40px;
+    background-color: #FF7518 ;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+span{
+    color:#fff;
+}

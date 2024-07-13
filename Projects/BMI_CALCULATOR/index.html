@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="./bmi.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <a href="./" aria-current="page">Home</a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCfksW6kFAl_VHCKtBUwL93g">
+            Learn With Ranga
+        </a>
+
+    </nav>
+    <h1>BMI CALCULATOR</h1>
+    <div class="container">
+    <form>
+        <p><label>Height:</label><input type="text" id="height"/>(in CM)</p>
+        <p><label>Weight:</label><input type="text" id="weight">(in KG)</p>
+        <button>Calculate</button>
+    
+        <div id="results"></div>
+    
+        <div id="weight-guide">
+            <p>Once you have your BMI number, use the chart below to determine if you need to gain weight, maintain your weight, or lose weight.</p>
+            <br/>
+            <h3>BMI weight Guide</h3>
+            <br/>
+            <table>
+            <tbody>
+            <tr>
+            <th width="221"><strong>BMI</strong></td>
+            <th width="221"><strong>Weight Status</strong></td>
+            </tr>
+            <tr>
+            <td width="221">Below 18.5</td>
+            <td width="221">Underweight</td>
+            </tr>
+            <tr>
+            <td width="221">18.5 – 24.9</td>
+            <td width="221">Normal or Healthy Weight</td>
+            </tr>
+            <tr>
+            <td width="221">25.0 – 29.9</td>
+            <td width="221">Overweight</td>
+            </tr>
+            <tr>
+            <td width="221">30.0 and above</td>
+            <td width="221">Obesity</td>
+            </tr>
+            </tbody>
+            </table>
+        </div>
+    </form>
+    </div>
+    <br/>
+    <footer>Finding the BMI, Take Proper steps to gain or loss the weight under proper supervision of Doctor or Physician.</footer>
+
+    <script src="./bmiCalculator.js"></script>
+</body>
+</html>
