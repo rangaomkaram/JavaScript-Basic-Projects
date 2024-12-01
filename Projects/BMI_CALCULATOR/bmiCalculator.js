@@ -22,7 +22,7 @@ form.addEventListener('submit',function(ev){
        }
 
        else if(bmi >=18.5 && bmi <= 24.9){
-        results.innerHTML = `<span>your are Normal or Healthy and value is ${bmi}</span>`
+        results.innerHTML = `<span>your bmi value ${bmi}, Normal or Healthy</span>`
        }
        else if (bmi >= 25.0 && bmi <= 29.9){
         results.innerHTML = `<span>your are Overweight and value is ${bmi}</span>`;

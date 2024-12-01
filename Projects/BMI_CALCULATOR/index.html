@@ -16,12 +16,17 @@
         </a>
 
     </nav>
-    <h1>BMI CALCULATOR</h1>
-    <div class="container">
-    <form>
-        <p><label>Height:</label><input type="text" id="height"/>(in CM)</p>
-        <p><label>Weight:</label><input type="text" id="weight">(in KG)</p>
-        <button>Calculate</button>
+    <div class="bmicalculator">
+        <h1>BMI CALCULATOR</h1>
+        <div class="container">
+    <form action="">
+        <p><label for="height">Height:</label><input type="text" id="height"/>(in CM)</p>
+        <p><label for="weight">Weight:</label><input type="text" id="weight">(in KG)</p>
+        <button id="calculate">Calculate</button>
+    </form>   
+    </div>
+        
+
     
         <div id="results"></div>
     
@@ -55,7 +60,7 @@
             </tbody>
             </table>
         </div>
-    </form>
+    
     </div>
     <br/>
     <footer>Finding the BMI, Take Proper steps to gain or loss the weight under proper supervision of Doctor or Physician.</footer>

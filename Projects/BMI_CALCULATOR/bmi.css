@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
   #height,
   #weight {
     width: 150px;
@@ -11,6 +14,8 @@
     margin-left: 75px;
     margin-top: 25px;
   }
+
+  
   
   #results {
     font-size: 35px;
